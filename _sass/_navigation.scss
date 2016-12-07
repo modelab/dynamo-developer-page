@@ -1,8 +1,18 @@
 nav#bar {
   @media (max-width: 60em) {
+    .show:checked ~ .burger {
+      h1 {
+        padding-right: 10.56px;
+      }
+    }
+
     .show:checked ~ .menu {
       background-color: #323232;
       width: auto;
+
+      &.right {
+        display: none;
+      }
 
       img {
         display: none;
@@ -17,6 +27,12 @@ nav#bar {
 
   .burger {
     color: #fff;
+
+    h1 {
+      float: right;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
   }
 
   img.logo {
@@ -24,6 +40,14 @@ nav#bar {
   }
 
   .menu {
+    &.left {
+      @media (max-width: 60em) {
+        margin-top: 60px;
+      }
+
+      float: left;
+    }
+
     a {
       color: rgba(255, 255, 255, 0.7);
       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
