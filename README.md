@@ -1,3 +1,3 @@
 # Dynamo Developer Page
 
-Built using [Jekyll](https://jekyllrb.com/).
+## Built using [Jekyll](https://jekyllrb.com/).
