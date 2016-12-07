@@ -2,7 +2,7 @@
 <html>
 {% include head.html %}
 
-<body>
+<body style="visibility: hidden;">
 	{% include navigation.html %}
 	<main>
 		<article>
@@ -11,5 +11,8 @@
 		{% include footer.html %}
 	</main>
 </body>
+
+<script>window.onload = function () { document.body.style.visibility='visible'; }</script>
+<noscript><style>body { visibility: visible; }</style></noscript>
 
 </html>
