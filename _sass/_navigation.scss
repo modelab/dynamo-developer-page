@@ -1,0 +1,53 @@
+nav#bar {
+  @media (max-width: 60em) {
+    .show:checked ~ .menu {
+      background-color: #323232;
+      width: auto;
+
+      img {
+        display: none;
+      }
+    }
+  }
+
+  background-color: #323232;
+  box-shadow: none;
+  height: 60px;
+  position: fixed;
+
+  .burger {
+    color: #fff;
+  }
+
+  img.logo {
+    height: 25px;
+  }
+
+  .menu {
+    a {
+      color: rgba(255, 255, 255, 0.7);
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      padding: 20px 10px;
+
+      &:hover {
+        color: #fff;
+      }
+
+      &.social {
+        padding: 0px;
+      }
+
+      img {
+        height: 50%;
+        opacity: 0.7;
+        padding-top: 5px;
+        width: 50%;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

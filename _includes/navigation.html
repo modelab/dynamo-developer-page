@@ -1,0 +1,27 @@
+<nav id="bar">
+  <a href="{{ site.dynamo }}" title="Dynamo BIM" rel="home" class="brand">
+    <img src="images/logo.png" alt="Dynamo BIM" class="logo" />
+  </a>
+
+  <!-- responsive -->
+  <input id="bmenub" type="checkbox" class="show">
+  <label for="bmenub" class="burger pseudo button">
+    <h1>&#8801;</h1>
+  </label>
+
+  <div class="menu">
+    <a href="{{ site.dynamo | append: "/learn/" }}">Learn</a>
+    <a href="{{ site.dynamo | append: "/explore" }}">Explore</a>
+    <a href="{{ site.dynamo | append: "/gallery/"}}">Gallery</a>
+    <a href="{{ site.dynamo | append: "/blog/"}}">Blog</a>
+    <a href="{{ site.dynamo | append: "/help-center/"}}">Help Center</a>
+    <a href="{{ site.forums }}">Forum</a>
+    <a href="{{ site.twitter }}" class="pseudo button social">
+      <img src="images/twitter.png" alt="Twitter" />
+    </a>
+    <a href="{{ site.facebook }}" class="pseudo button social">
+      <img src="images/facebook.png" alt="Facebook" />
+    </a>
+    <a href="{{ site.dynamo | append: "/download/"}}">Download</a>
+  </div>
+</nav>

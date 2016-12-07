@@ -1,0 +1,79 @@
+---
+# Styles for default layout
+---
+// imports
+@import 'picnic.min.css';
+@import 'navigation';
+
+$bg-color: #ECEDED;
+$link-color: #1288B1;
+$text-color: #363737;
+
+a {
+  color: $link-color;
+}
+
+body {
+  color: $text-color;
+  height: auto;
+}
+
+button {
+  background-color: $bg-color;
+  color: $text-color;
+
+  &:hover {
+    background-color: $text-color;
+    color: $bg-color;
+  }
+}
+
+h3 {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+a.path-link {
+  color: $text-color;
+}
+
+div#arrow {
+  text-align: center;
+
+  h2 {
+    padding: 0;
+  }
+}
+
+div.footer {
+  background-color: #ECEDED;
+  margin-top: 40px;
+  text-align: left;
+}
+
+div.landing {
+  margin-top: 80px;
+  text-align: center;
+}
+
+div.paths {
+  height: auto;
+  text-align: center;
+}
+
+hr.line-break {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+img.path {
+  width: 40%;
+}

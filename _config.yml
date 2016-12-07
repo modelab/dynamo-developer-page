@@ -1,0 +1,20 @@
+title: Dynamo Developer Page
+description: Learn how to code, develop, and share your own Dynamo tools.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+dynamo: "http://dynamobim.org/"
+forums: "https://forum.dynamobim.com/"
+twitter: "https://twitter.com/DynamoBIM"
+facebook: "https://www.facebook.com/DynamoBIM"
+
+# Build settings
+sass:
+  sass_dir: _sass
+  style: compressed
+include: ['_pages']
+permalink: /:title/
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
