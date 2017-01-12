@@ -14,7 +14,7 @@ facebook: "https://www.facebook.com/DynamoBIM"
 
 wiki: "https://github.com/DynamoDS/Dynamo/wiki"
 samples: "https://github.com/DynamoDS/DynamoSamples"
-designscript_documentations: "http://dynamobim.org/wp-content/links/DesignScriptDocumentation.pdf"
+designscript_documentation: "http://dynamobim.org/wp-content/links/DesignScriptDocumentation.pdf"
 designscript_guide: "http://dynamobim.org/wp-content/links/DesignScriptGuide.pdf"
 api: "http://dynamods.github.io/DynamoAPI/"
 package_manager: "http://dynamopackages.com/"
