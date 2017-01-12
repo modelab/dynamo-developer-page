@@ -3,10 +3,21 @@ description: Learn how to code, develop, and share your own Dynamo tools.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Primary Site URLs
+
 dynamo: "http://dynamobim.org/"
 forums: "https://forum.dynamobim.com/"
 twitter: "https://twitter.com/DynamoBIM"
 facebook: "https://www.facebook.com/DynamoBIM"
+
+# Resources
+
+wiki: "https://github.com/DynamoDS/Dynamo/wiki"
+samples: "https://github.com/DynamoDS/DynamoSamples"
+designscript_documentations: "http://dynamobim.org/wp-content/links/DesignScriptDocumentation.pdf"
+designscript_guide: "http://dynamobim.org/wp-content/links/DesignScriptGuide.pdf"
+api: "http://dynamods.github.io/DynamoAPI/"
+package_manager: "http://dynamopackages.com/"
 
 # Build settings
 sass:
