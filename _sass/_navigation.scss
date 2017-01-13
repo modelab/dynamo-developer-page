@@ -27,6 +27,12 @@ nav#bar {
   letter-spacing: 1px;
   position: absolute;
 
+  #back-arrow {
+    color: #ffffff;
+    display: none;
+    font-size: 1.5em;
+  }
+
   .burger {
     color: #fff;
 
