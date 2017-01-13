@@ -28,9 +28,13 @@ nav#bar {
   position: absolute;
 
   #back-arrow {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
     display: none;
     font-size: 1.5em;
+
+    &:hover {
+      color: #fff;
+    }
   }
 
   .burger {
