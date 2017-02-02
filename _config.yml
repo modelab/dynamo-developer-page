@@ -13,11 +13,18 @@ facebook: "https://www.facebook.com/DynamoBIM"
 # Resources
 
 wiki: "https://github.com/DynamoDS/Dynamo/wiki"
+
+# C#
+zero_touch_introduction: "https://github.com/DynamoDS/Dynamo/wiki/Zero-Touch-Plugin-Development"
+api: "http://dynamods.github.io/DynamoAPI"
+building_packages: "https://github.com/DynamoDS/Dynamo/wiki/Building-a-Package-for-Dynamo-in-Visual-Studio"
 samples: "https://github.com/DynamoDS/DynamoSamples"
+package_manager: "http://dynamopackages.com"
+
+# DesignScript
+custom_nodes: "https://github.com/DynamoDS/Dynamo/wiki/How-To-Create-Your-Own-Nodes#method-1-custom-nodes"
 designscript_documentation: "http://dynamobim.org/wp-content/links/DesignScriptDocumentation.pdf"
 designscript_guide: "http://dynamobim.org/wp-content/links/DesignScriptGuide.pdf"
-api: "http://dynamods.github.io/DynamoAPI"
-package_manager: "http://dynamopackages.com"
 
 # Build settings
 sass:

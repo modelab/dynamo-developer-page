@@ -7,7 +7,7 @@ layout: default
   <div>
     <h1>Dynamo Developer Resources</h1>
     <hr class="line-break">
-    <h5>Get up to speed with the Dynamo developer ecosystem. Learn how to code, develop, and share your own Dynamo tools.</h5>
+    <p>Dynamo includes an assortment of core nodes that you can use to build most graphs, but sometimes a better solution is to create your own nodes. Dynamo also offers several methods for creating and importing custom nodes; either creating nodes <b>directly in Dynamo</b> or by <b>writing C# code</b> - with <i>Zero Touch</i> importing or by creating nodes entirely on your own.</p>   
   </div>
 </div>
 
@@ -15,19 +15,22 @@ layout: default
   <div class="row">
     <div id="resources-internal" class="col-md-6 resources">
       <div class="row">
-        <a href="{{ site.designscript_guide }}" class="path-link">
+        <a href="{{ site.custom_nodes }}" class="path-link">
           <img src="images/node.svg" class="path" alt="Develop Custom Nodes"/>
-          <h3>Develop in the Dynamo Enviroment</h3>
+          <h3>Creating nodes in Dynamo</h3>
         </a>
       </div>
       <div class="row">
         <!-- DesignScript Guide -->
-        <a href="{{ site.designscript_guide }}" class="btn button">Get started using DesignScript &#10095;</a>
+        <a href="{{ site.custom_nodes }}" class="btn button">Create custom nodes in Dynamo &#10095;</a>
       </div>
       <div class="row">
         <div>
-          <h4>Quick Resources</h4>
+          <h4>Dynamo Custom Node Resources</h4>
           <ul>
+            <li>
+              <!-- DesignScript Guide -->
+              <a href="{{ site.designscript_guide }}">Create custom code blocks with DesignScript</a>
             <li>
               <!-- DesignScript Documentation -->
               <a href="{{ site.designscript_documentation }}">Review the DesignScript documentation</a>
@@ -40,23 +43,30 @@ layout: default
       <div class="row">
         <a href="{{ site.samples }}" class="path-link">
           <img src="images/package.svg" class="path" alt="Develop External Packages" />
-          <h3>Develop external to Dynamo</h3>
+          <h3>Creating nodes with C#</h3>
         </a>
       </div>
       <div class="row">
-        <a href="{{ site.samples }}" class="btn button">Check out sample Dynamo packages &#10095;</a>
+        <a href="{{ site.zero_touch_introduction }}" class="btn button">Get started with <i>Zero Touch</i> importing &#10095;</a>
       </div>
       <div class="row">
         <div>
-          <h4>Quick Resources</h4>
+          <h4>C# Resources</h4>
           <ul>
             <li>
               <!-- API Page -->
-              <a href="{{ site.api }}">Learn about the Dynamo API</a>
+              <a href="{{ site.api }}">Learn about the Dynamo C# API</a>
+            </li>
+            <li>
+              <!-- Building Packages -->
+              <a href="{{ site.building_packages }}">Create packages with Visual Studio</a>
+            <li>
+              <!-- Sample Packages !-->
+              <a href="{{ site.samples }}">View sample Dynamo C# packages</a>
             </li>
             <li>
               <!-- Package Manager -->
-              <a href="{{ site.package_manager }}">Explore the Dynamo Package Manager</a>
+              <a href="{{ site.package_manager }}">Share packages with the Dynamo Package Manager</a>
             </li>
           </ul>
         </div>
