@@ -16,6 +16,7 @@ wiki: "https://github.com/DynamoDS/Dynamo/wiki"
 
 # C#
 zero_touch_introduction: "https://github.com/DynamoDS/Dynamo/wiki/Zero-Touch-Plugin-Development"
+csharp_custom_nodes: "https://github.com/DynamoDS/Dynamo/wiki/How-To-Create-Your-Own-Nodes#method-3-nodes-with-custom-ui"
 api: "http://dynamods.github.io/DynamoAPI"
 building_packages: "https://github.com/DynamoDS/Dynamo/wiki/Building-a-Package-for-Dynamo-in-Visual-Studio"
 samples: "https://github.com/DynamoDS/DynamoSamples"
