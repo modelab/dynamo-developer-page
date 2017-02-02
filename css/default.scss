@@ -2,7 +2,7 @@
 # Styles for default layout
 ---
 // imports
-@import 'picnic.min.css';
+@import 'bootstrap';
 @import 'navigation';
 
 $bg-color: #ECEDED;
@@ -15,35 +15,65 @@ a {
 
 body {
   color: $text-color;
-  height: auto;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;; 
 }
 
-h3 {
-  padding: 0;
+hr.line-break {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-li {
-  list-style: none;
+#developer-resources {
+  width: 75%;
+  text-align: center;
 }
 
-ul {
-  margin-top: 5px;
-  padding: 0;
+#resource-links {
+  margin: auto;
 }
 
-a.button {
-  background-color: $bg-color;
-  color: $text-color;
+#resources-internal {
+  text-align: center;
 
-  &:hover {
-    background-color: $text-color;
-    color: $bg-color;
+  img {
+    width: 60%;
   }
 }
 
-a.path-link {
-  color: $text-color;
+#resources-external {
+  text-align: center;
+  
+  img {
+    width: 60%
+  }
+}
+
+.resources {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  a.button {
+    background-color: $bg-color;
+    color: $text-color;
+
+    &:hover {
+      background-color: $text-color;
+      color: $bg-color;
+    }
+  }
+
+  a.path-link {
+    color: $text-color;
+  }
 }
 
 div#arrow {
@@ -58,24 +88,20 @@ div.footer {
   background-color: #ECEDED;
   margin-top: 40px;
   text-align: left;
-}
+  padding-left: 40px;
+  padding-bottom: 40px;
 
-div.landing {
-  margin-top: 80px;
-  text-align: center;
-}
+  h2 {
+    margin: 10px 0;
+  }
 
-div.paths {
-  height: auto;
-  text-align: center;
-}
+  ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 5px;
+  }
 
-hr.line-break {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-img.path {
-  width: 40%;
+  .other {
+    margin-left: 12.5%;
+  }
 }

@@ -1,83 +1,30 @@
-nav#bar {
-  @media (max-width: 60em) {
-    .show:checked ~ .burger {
-      h1 {
-        padding-right: 10.56px;
-      }
-    }
+$navbar-color: rgba(50, 50, 50, 0.952941);
+$navbar-height: 60px;
 
-    .show:checked ~ .menu {
-      background-color: #323232;
-      width: auto;
-
-      &.right {
-        display: none;
-      }
-
-      img {
-        display: none;
-      }
-    }
-  }
-
-  background-color: #323232;
-  box-shadow: none;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  height: 60px;
+#navbar-custom {
+  background-color: $navbar-color;
+  height: $navbar-height;
   letter-spacing: 1px;
-  position: absolute;
 
-  #back-arrow {
+  a {
     color: rgba(255, 255, 255, 0.7);
-    display: none;
-    font-size: 1.5em;
+    font-size: 12px;
+    height: $navbar-height;
+    line-height: .5 * $navbar-height;
 
     &:hover {
       color: #fff;
     }
-  }
 
-  .burger {
-    color: #fff;
-
-    h1 {
-      float: right;
-      padding-bottom: 0;
-      padding-top: 0;
-    }
-  }
-
-  img.logo {
-    height: 25px;
-  }
-
-  .menu {
-    &.left {
-      @media (max-width: 60em) {
-        margin-top: 60px;
-      }
-
-      float: left;
+    img.logo {
+      height: 100%;
     }
 
-    a {
-      color: rgba(255, 255, 255, 0.7);
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      font-size: 12px;
-      padding: 20px 10px;
-
-      &:hover {
-        color: #fff;
-      }
-
-      &.social {
-        padding: 0px;
-      }
+    &.social {
+      padding-right: 0;
 
       img {
-        height: 50%;
         opacity: 0.7;
-        padding-top: 5px;
         width: 50%;
 
         &:hover {
@@ -85,5 +32,29 @@ nav#bar {
         }
       }
     }
+  }
+
+  ul.navbar-right {
+    margin-right: 60px;
+  }
+
+  .btn-round-outline {
+    background: none;
+    border-radius: 24px;
+    height: 80%;
+    margin: 14px 0px;
+    margin-left: 24px;
+    padding: 0px 12px;
+    width: 138px;
+
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .navbar-collapse.in {
+    background-color: $navbar-color;
   }
 }
