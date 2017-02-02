@@ -5,8 +5,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Primary Site URLs
 
-dynamo: "http://dynamobim.org/"
-forums: "https://forum.dynamobim.com/"
+dynamo: "http://dynamobim.org"
+forums: "https://forum.dynamobim.com"
 twitter: "https://twitter.com/DynamoBIM"
 facebook: "https://www.facebook.com/DynamoBIM"
 
@@ -16,8 +16,8 @@ wiki: "https://github.com/DynamoDS/Dynamo/wiki"
 samples: "https://github.com/DynamoDS/DynamoSamples"
 designscript_documentation: "http://dynamobim.org/wp-content/links/DesignScriptDocumentation.pdf"
 designscript_guide: "http://dynamobim.org/wp-content/links/DesignScriptGuide.pdf"
-api: "http://dynamods.github.io/DynamoAPI/"
-package_manager: "http://dynamopackages.com/"
+api: "http://dynamods.github.io/DynamoAPI"
+package_manager: "http://dynamopackages.com"
 
 # Build settings
 sass:
