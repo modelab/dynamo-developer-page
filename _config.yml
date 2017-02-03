@@ -12,12 +12,52 @@ facebook: "https://www.facebook.com/DynamoBIM"
 
 # Resources
 
-wiki: "https://github.com/DynamoDS/Dynamo/wiki"
-samples: "https://github.com/DynamoDS/DynamoSamples"
-designscript_documentation: "http://dynamobim.org/wp-content/links/DesignScriptDocumentation.pdf"
-designscript_guide: "http://dynamobim.org/wp-content/links/DesignScriptGuide.pdf"
-api: "http://dynamods.github.io/DynamoAPI"
-package_manager: "http://dynamopackages.com"
+# Core Library
+
+dynamo_primer: "#"
+dynamo_dictionary: "#"
+dynamo_blog: "#"
+
+# Code Block
+
+intro_to_code_block: "#"
+designscript_guide: "#"
+designscript_doc: "#"
+
+# Python
+
+python_in_dynamo: "#"
+
+# Third-Party libraries
+
+dynamo_package_manager: "#"
+installing_packages: "#"
+
+# Node and Package Development
+
+developing_nodes: "#"
+developing_packages: "#"
+
+# Customizing with Dynamo
+
+create_custom_nodes: "#"
+
+# Customizing with C# with Visual Studio - Zero-Touch
+
+dynamo_api: "#"
+zero_touch_development: "#"
+nodes_with_custom_ui: "#"
+developing_c_sharp_packages: "#"
+
+# Publishing your work
+
+publishing_a_package: "#"
+example_packages: "#"
+
+# More
+
+dynamo_wiki: "#"
+
 
 # Build settings
 sass:
