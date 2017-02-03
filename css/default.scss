@@ -36,6 +36,7 @@ hr.line-break {
 
 #resource-links {
   margin: auto;
+  margin-top: 30px;
 }
 
 #resources-internal {
@@ -64,6 +65,8 @@ hr.line-break {
   ul {
     list-style: none;
     padding: 0;
+    padding-left: 27.5%;
+    text-align: left;
 
     li {
       margin: 5px 0;
@@ -85,16 +88,6 @@ hr.line-break {
     color: $text-color;
   }
 }
-
-div#arrow {
-  text-align: center;
-
-  h2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
 div.footer {
   background-color: #ECEDED;
   margin-top: 40px;
@@ -118,5 +111,6 @@ div.footer {
 
   .other {
     margin-left: 12.5%;
+    padding-top: 30px;
   }
 }
