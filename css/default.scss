@@ -27,6 +27,11 @@ hr.line-break {
 #developer-resources {
   width: 75%;
   text-align: center;
+
+  b {
+    text-color: #000;
+    font-weight: bolder;
+  }
 }
 
 #resource-links {
@@ -37,7 +42,7 @@ hr.line-break {
   text-align: center;
 
   img {
-    width: 60%;
+    width: 40%;
   }
 }
 
@@ -45,7 +50,7 @@ hr.line-break {
   text-align: center;
   
   img {
-    width: 60%
+    width: 40%
   }
 }
 
@@ -59,11 +64,16 @@ hr.line-break {
   ul {
     list-style: none;
     padding: 0;
+
+    li {
+      margin: 5px 0;
+    }
   }
 
   a.button {
     background-color: $bg-color;
     color: $text-color;
+    margin: 5px 0px 10px 0px;
 
     &:hover {
       background-color: $text-color;
@@ -80,6 +90,7 @@ div#arrow {
   text-align: center;
 
   h2 {
+    margin: 0;
     padding: 0;
   }
 }
