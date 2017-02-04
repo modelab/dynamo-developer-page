@@ -22,14 +22,6 @@ p {
   opacity: .8;
 }
 
-.btn {
-  background-color: $bg-color;
-  -webkit-box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
-  -moz-box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
-  box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
-  margin-right: 5px;
-}
-
 .resource {
   margin-top: 3%;
 
@@ -40,6 +32,14 @@ p {
   hr {
     margin-top: 20px;
     margin-bottom: 5px;
+  }
+
+  .btn {
+    background-color: $bg-color;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
+    box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
+    margin-right: 5px;
   }
 
   .subheader {
