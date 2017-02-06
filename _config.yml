@@ -3,6 +3,13 @@ description: Learn how to code, develop, and share your own Dynamo tools.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Images
+box_logo: "images/box.svg"
+network_logo: "images/network.svg"
+custom_node_logo: "images/custom_nodes.svg"
+publish_logo: "images/publish.svg"
+
+
 # Primary Site URLs
 
 dynamo: "http://dynamobim.org"
@@ -14,49 +21,49 @@ facebook: "https://www.facebook.com/DynamoBIM"
 
 # Core Library
 
-dynamo_primer: "#"
-dynamo_dictionary: "#"
-dynamo_blog: "#"
+dynamo_primer: "http://dynamoprimer.com/en/"
+dynamo_dictionary: "http://dictionary.dynamobim.com"
+dynamo_blog: "http://dynamobim.org/blog/"
 
 # Code Block
 
-intro_to_code_block: "#"
-designscript_guide: "#"
-designscript_doc: "#"
+intro_to_code_block: "http://dynamoprimer.com/en/07_Code-Block/7-1_what-is-a-code-block.html"
+designscript_guide: "http://dynamobim.org/wp-content/links/DesignScriptGuide.pdf"
+designscript_doc: "http://dynamobim.org/wp-content/links/DesignScriptDocumentation.pdf"
 
 # Python
 
-python_in_dynamo: "#"
+python_in_dynamo: "http://dynamoprimer.com/en/09_Custom-Nodes/9-4_Python.html"
 
 # Third-Party libraries
 
-dynamo_package_manager: "#"
-installing_packages: "#"
+dynamo_package_manager: "https://dynamopackages.com/"
+installing_packages: "http://dynamoprimer.com/en/10_Packages/10-1_Introduction.html"
 
 # Node and Package Development
 
-developing_nodes: "#"
-developing_packages: "#"
+developing_nodes: "http://dynamoprimer.com/en/09_Custom-Nodes/9-1_Introduction.html"
+developing_packages: "http://dynamoprimer.com/en/10_Packages/10-3_Developing.html"
 
 # Customizing with Dynamo
 
-create_custom_nodes: "#"
+create_custom_nodes: "https://github.com/DynamoDS/Dynamo/wiki/How-To-Create-Your-Own-Nodes"
 
 # Customizing with C# with Visual Studio - Zero-Touch
 
-dynamo_api: "#"
-zero_touch_development: "#"
-nodes_with_custom_ui: "#"
-developing_c_sharp_packages: "#"
+dynamo_api: "https://dynamods.github.io/DynamoAPI/"
+zero_touch_development: "https://github.com/DynamoDS/Dynamo/wiki/Zero-Touch-Plugin-Development"
+nodes_with_custom_ui: "https://github.com/DynamoDS/Dynamo/wiki/How-To-Create-Your-Own-Nodes#method-3-nodes-with-custom-ui"
+developing_c_sharp_packages: "https://github.com/DynamoDS/Dynamo/wiki/Building-a-Package-for-Dynamo-in-Visual-Studio"
 
 # Publishing your work
 
-publishing_a_package: "#"
-example_packages: "#"
+publishing_a_package: "https://github.com/DynamoDS/Dynamo/wiki/Building-a-Package-for-Dynamo-in-Visual-Studio"
+example_packages: "https://github.com/DynamoDS/DynamoSamples"
 
 # More
 
-dynamo_wiki: "#"
+dynamo_wiki: "https://github.com/DynamoDS/Dynamo/wiki"
 
 
 # Build settings

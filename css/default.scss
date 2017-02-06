@@ -22,8 +22,21 @@ p {
   opacity: .8;
 }
 
+#main-container {
+  margin: 0 20%;
+}
+
 .resource {
-  margin-top: 3%;
+  margin-top: 5%;
+  width: 100%;
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
 
   h3 {
     margin-bottom: 0;
@@ -32,6 +45,14 @@ p {
   hr {
     margin-top: 20px;
     margin-bottom: 5px;
+    width: 70%;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 40%;
   }
 
   .btn {
@@ -40,10 +61,29 @@ p {
     -moz-box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
     box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
     margin-right: 5px;
+
+    &#wiki-button {
+      display: block;
+      margin: auto;
+      width: 25%;
+    }
+  }
+
+  .header {
+    p {
+      margin-top: 30px;
+    }
   }
 
   .subheader {
     margin-bottom: 20px;
+  }
+
+  &.card {
+    -webkit-box-shadow: 2px 2px 5px 2px #DDD;
+    -moz-box-shadow: 2px 2px 5px 2px #DDD;
+    box-shadow: 2px 2px 5px 2px #DDD;
+    padding: 30px 100px;
   }
 }
 
