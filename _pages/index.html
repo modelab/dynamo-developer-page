@@ -35,7 +35,7 @@ layout: default
         <a href="{{ site.custom_node_link | prepend: '#' }}">
           <div class="card">
             <h5>{{ site.custom_node_header }}</h5>
-            <img src="{{ site.custom_node_logo }}" class="path" alt="Node Development"/>
+            <img id="node-image" src="{{ site.custom_node_logo }}" class="path" alt="Node Development"/>
           </div>
         </a>
       </div>
@@ -53,7 +53,7 @@ layout: default
         <a href="{{ site.box_link | prepend: '#' }}">
           <div class="card">
             <h5>{{ site.more_header }}</h5>
-            <img src="{{ site.more_logo }}" class="path" alt="More..."/>
+            <img id="more-image" src="{{ site.more_logo }}" class="path" alt="More..."/>
           </div>
         </a>
       </div>
@@ -163,7 +163,7 @@ layout: default
   </div>
 
   <div id="{{ site.more_link }}" class="resource card container">
-    <div class="row header">
+    <div id="more-row" class="row header">
       <h2>{{ site.more_header }}</h2>
       <hr>
       <br>

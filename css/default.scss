@@ -20,7 +20,11 @@ p {
 }
 
 #main-container {
-  margin: 0 20%;
+  margin: 0 15%;
+
+  @media screen and (max-width: 768px) {
+    margin: 0 5%;
+  }
 }
 
 .resource {
@@ -52,17 +56,20 @@ p {
     width: 40%;
   }
 
+  #more-row {
+    text-align: center;
+  }
+
   .btn {
     background-color: $bg-color;
     -webkit-box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
     -moz-box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
     box-shadow: 2px 2px 2px 0px rgba(236,237,237,1);
     margin-right: 5px;
+    margin-bottom: 7px;
 
     &#wiki-button {
-      display: block;
-      margin: auto;
-      width: 25%;
+      display: inline-block;
     }
   }
 
@@ -80,7 +87,7 @@ p {
     -webkit-box-shadow: 2px 2px 5px 2px #DDD;
     -moz-box-shadow: 2px 2px 5px 2px #DDD;
     box-shadow: 2px 2px 5px 2px #DDD;
-    padding: 30px 100px;
+    padding: 5% 10%;
   }
 }
 
@@ -111,6 +118,15 @@ p {
     margin: auto;
     margin-bottom: 25px;
     width: 50%;
+
+    &#node-image {
+      width: 60%;
+    }
+
+    &#more-image {
+      padding-top: 7.5%;
+      width: 40%;
+    }
   }
 
   .card {
