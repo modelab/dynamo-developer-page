@@ -3,15 +3,12 @@
 ---
 // imports
 @import 'bootstrap';
+@import 'row-equal-height';
 @import 'navigation';
 
 $bg-color: #ECEDED;
 $link-color: #1288B1;
 $text-color: #363737;
-
-a {
-  color: $link-color;
-}
 
 body {
   color: $text-color;
@@ -84,6 +81,50 @@ p {
     -moz-box-shadow: 2px 2px 5px 2px #DDD;
     box-shadow: 2px 2px 5px 2px #DDD;
     padding: 30px 100px;
+  }
+}
+
+.resource-links {
+  width: 100%;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+
+  h5 {
+    text-align: center;
+  }
+
+  hr {
+    margin-top: 50px;
+    width: 70%;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 50%;
+  }
+
+  .card {
+    margin: 7px;
+    padding: 10px;
+    height: 100%;
+    
+    -webkit-box-shadow: 2px 2px 5px 2px #DDD;
+    -moz-box-shadow: 2px 2px 5px 2px #DDD;
+    box-shadow: 2px 2px 5px 2px #DDD;
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 }
 

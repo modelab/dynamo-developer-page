@@ -3,11 +3,26 @@ description: Learn how to code, develop, and share your own Dynamo tools.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Headers
+box_header: "Out-of-the-Box"
+network_header: "Third-Party Libraries"
+custom_node_header: "Node and Package Development"
+publish_header: "Publishing your Work"
+more_header: "More..."
+
 # Images
 box_logo: "images/box.svg"
 network_logo: "images/network.svg"
 custom_node_logo: "images/custom_nodes.svg"
 publish_logo: "images/publish.svg"
+more_logo: "images/more.svg"
+
+# Page Links
+box_link: "box"
+network_link: "network"
+custom_node_link: "custom-node"
+publish_link: "publish"
+more_link: "more"
 
 
 # Primary Site URLs

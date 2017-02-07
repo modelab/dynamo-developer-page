@@ -13,9 +13,57 @@ layout: default
     </div>
   </div>
 
-  <div class="resource card container">
+  <div class="resource-links container">
+    <div class="row row-eq-height">
+      <div class="col-sm-4">
+        <a href="{{ site.box_link | prepend: '#' }}">
+          <div class="card">
+            <h5>{{ site.box_header }}</h5>
+            <img src="{{ site.box_logo }}" class="path" alt="Out-of-the-Box Nodes"/>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <a href="{{ site.network_link | prepend: '#' }}">
+          <div class="card">
+            <h5>{{ site.network_header }}</h5>
+            <img src="{{ site.network_logo }}" class="path" alt="Third Party Libraries"/>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <a href="{{ site.custom_node_link | prepend: '#' }}">
+          <div class="card">
+            <h5>{{ site.custom_node_header }}</h5>
+            <img src="{{ site.custom_node_logo }}" class="path" alt="Node Development"/>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row row-eq-height">
+      <div class="col-sm-4">
+        <a href="{{ site.publish_link | prepend: '#' }}">
+          <div class="card">
+            <h5>{{ site.publish_header }}</h5>
+            <img src="{{ site.publish_logo }}" class="path" alt="Publishing your work"/>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <a href="{{ site.box_link | prepend: '#' }}">
+          <div class="card">
+            <h5>{{ site.more_link }}</h5>
+            <img src="{{ site.more_logo }}" class="path" alt="More..."/>
+          </div>
+        </a>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div id="{{ site.box_link }}" class="resource card container">
     <div class="row header">
-      <h2>Out-of-the-Box</h2>
+      <h2>{{ site.box_header }}</h2>
       <hr>
       <img src="{{ site.box_logo }}" class="path" alt="Out-of-the-Box Nodes"/>
     </div>
@@ -46,9 +94,9 @@ layout: default
     </div>
   </div>
 
-  <div class="resource card container">
+  <div id="{{ site.network_link }}" class="resource card container">
     <div class="row header">
-      <h2>Third-Party Libraries</h2>
+      <h2>{{ site.network_header }}</h2>
       <hr>
       <img src="{{ site.network_logo }}" class="path" alt="Third Party Libraries"/>
     </div>
@@ -62,9 +110,9 @@ layout: default
     </div>
   </div>
 
-  <div class="resource card container">
+  <div id="{{ site.custom_node_link }}" class="resource card container">
     <div class="row header">
-      <h2>Node and Package Development</h2>
+      <h2>{{ site.custom_node_header }}</h2>
       <hr>
       <img src="{{ site.custom_node_logo }}" class="path" alt="Node Development"/>
     </div>
@@ -97,9 +145,9 @@ layout: default
     </div>
   </div>
 
-  <div class="resource card container">
+  <div id="{{ site.publish_link }}" class="resource card container">
     <div class="row header">
-      <h2>Publishing your Work</h2>
+      <h2>{{ site.publish_header }}</h2>
       <hr>
       <img src="{{ site.publish_logo }}" class="path" alt="Publishing your work"/>
     </div>
@@ -114,9 +162,9 @@ layout: default
     </div>
   </div>
 
-  <div class="resource card container">
+  <div id="{{ site.more_link }}" class="resource card container">
     <div class="row header">
-      <h2>More...</h2>
+      <h2>{{ site.more_header }}</h2>
       <hr>
       <br>
       <a id="wiki-button" class="btn btn-default" href="{{ site.dynamo_wiki }}" role="button">Dynamo Wiki</a>
