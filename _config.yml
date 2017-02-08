@@ -7,7 +7,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 box_header: "Out-of-the-Box"
 network_header: "Third-Party Libraries"
 custom_node_header: "Node and Package Development"
-publish_header: "Publishing your Work"
+publish_header: "Publishing Your Work"
 more_header: "More..."
 
 # Images
